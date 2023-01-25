@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.cardCountry {
+  background-color: black;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  max-width: 320px;
+}
+
+.cardCountry__img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardCountry__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 8px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
