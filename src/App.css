@@ -4,12 +4,13 @@
   align-items: center;
   min-height: 100vh;
   padding: 20px;
+  gap: 10px;
 }
 * {
   box-sizing: border-box;
 }
 .cardCountry {
-  background-color: black;
+  background-color: grey;
   padding: 20px;
   border-radius: 15px;
   font-size: 20px;
@@ -19,6 +20,12 @@
 .cardCountry__img {
   border-radius: 10px;
   overflow: hidden;
+}
+
+.cardCountry__title {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 .cardCountry__list {
